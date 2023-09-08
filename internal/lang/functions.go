@@ -49,6 +49,7 @@ func (s *Scope) Functions() map[string]function.Function {
 			"can":              tryfunc.CanFunc,
 			"ceil":             stdlib.CeilFunc,
 			"chomp":            stdlib.ChompFunc,
+			"cidrcontains":     funcs.CidrContainsFunc,
 			"cidrhost":         funcs.CidrHostFunc,
 			"cidrnetmask":      funcs.CidrNetmaskFunc,
 			"cidrsubnet":       funcs.CidrSubnetFunc,
